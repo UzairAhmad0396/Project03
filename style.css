@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section {
+    margin: 10px 0;
+    width: 768px;
+    background: rgb(245, 245, 245);
+
+}
+
+.container {
+    width: 368px;
+    margin: 0 auto;
+}
+
+/********** Hero section **********/
+
+.hero {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+    background: rgb(245, 245, 245);
+}
+
+.hero .hero-dtls h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.hero .hero-dtls p {
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+
+.pdesgin {
+    background: linear-gradient(to left, #19b6ff, #ff8a00, #dd4c4f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {
+    padding: 5px 10px;
+    background: #19b6ff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.btn-1 {
+    padding: 5px 10px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #19b6ff;
+    border-radius: 15px;
+    margin: 10px 0;
+    color: #19b6ff;
+}
+.macbook{
+    display: flex;
+    align-items: center;
+    height: 55vh;
+}
+
+/********** Chat section **********/
+
+.chats {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: rgb(245, 245, 245);
+
+}
+
+.chats .chat {
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #19b6ff;
+    border-radius: 25px;
+}
+
+.chats .chat h2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.chat-2 {
+    padding: 10px;
+    background: #19b6ff;
+    border-radius: 25px;
+}
+
+.chats h5 {
+    font-size: 1rem;
+    color: white;
+}
+
+/********** Ai section **********/
+
+.ai {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.ai .column {
+    width: 49%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #000;
+    color: white;
+}
+
+.ai .column .c-dtl{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.ai .column .c-dtl h3{
+    font-size: 1rem;
+}
+.ai .column .c-dtl p{
+    font-size: 0.5rem;
+}
+.ai .column  button {
+    padding: 3px 5px;
+    background: #19b6ff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin: 5px 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: white;
+}
+.ai .column .btn-1 {
+    padding: 2px 5px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #19b6ff;
+    border-radius: 15px;
+    margin: 10px 0;
+    color: #19b6ff;
+}
+
+.ai .col-1 .c-img{
+    background: url("images/b3.png");
+    width: 100px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ai .col-2{
+     background: url("images/b1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ai .col-3 .c-img{
+     background: url("images/b3.png");
+    width: 100px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ai .col-4{
+     background: url("images/airpods.png");
+     background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ai .col-5{
+     background: url("images/iphone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+}
+.ai .col-6{
+     background: url("images/card.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    color: #000;
+}
+.ai .column p {
+    font-size: 0.5rem;
+    margin-top: 5px;
+}
+.col2-dtls{
+    width: 100%;
+    height: 30vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.col2-dtls h3{
+    font-size: 1rem;
+} 
+
+/********** Ai section **********/
+
+.banner{
+    width: 100%;
+    height: 30vh;
+}
+.banner .banner-img{
+    background: url('images/b1.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 15px;
+}
+.banner .banner-img button{
+    background-color: #fff;
+    color: #000;
+}
+.banner .banner-img span{
+    font-size: .6rem;
+    color: white;
+}
+
+/********** Random section **********/
+
+#random{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.random{
+    width: 100%;
+    height: 65vh;
+    font-size: .7rem;
+    background: rgb(245, 245, 245);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#links{
+     display: flex;
+     justify-content: center; 
+    align-items: center;
+    width: 768px;
+    height: 40px;
+    background: white;
+    position: absolute;    
+}
+.links{
+    width: 368px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.links a{
+    z-index: 99;
+    font-size: .6rem;
+    text-decoration: none;
+    color: gray;
+}
+/********** Foooter**********/
+
+.apple{
+    width: 100%;
+    height: 50vh;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+.apple h5{
+    font-size: .6rem;
+    margin-top: 10px;
+}
+.apple p{
+    font-size: .6rem;
+    margin: 5px 0;
+    color: gray;
+
+}
